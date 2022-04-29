@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box
+}
+body{
+    font-family: sans-serif;
+}
+body p{
+    color: #8F99AF;
+}
+.container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #00194A;
+}
+header{
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    text-decoration: none;
+    color: #FF0043;
+    margin-left: 150px;
+    font-weight: bold;
+}
+ul{
+    margin-left: auto;
+}
+li{
+    list-style-type: none;
+    margin-right: 150px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF0043;
+    padding: 10px;
+    border-radius: 20px;
+}
+li a:hover{
+    background-color: red;
+    border-radius: 30%;
+}
+.boxes{
+    display: flex;  
+}
+.box{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.box-a{
+    background-color: #FF0043;
+    padding: 15px 120px 15px;
+    border-radius: 30px;
+    height: 60px;
+}
+.box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-box{
+    width: 350px;
+    height: 270px;
+    margin-left: 40px;
+    padding-left: 30px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+}
+.div-box:hover{
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+.div-box-div{
+    align-items: center;
+    position: relative;
+}
+.div-box a{
+    color: #8F99AF;
+}
+.download1{
+    margin-left: 140px;
+}
+.download{
+    margin-left: 140px;
+}
+.download2{
+    margin-left: 140px;
+}
+.div-flex{
+    display: flex;
+}
+.div-simple{
+    padding-top: 230px;
+}
+.div-simple p{
+    color: #8F99AF;
+}
+.sect-div{
+    margin-left: 100px;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.divv{
+    align-items: center;
+     width: 650px;
+    position: relative;
+}
+.sect-div1{
+    margin-left: 100px;
+}
+.sect-div2{
+    width: 260px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    font-size: 15px;
+}
+.sect-div3{
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    width: 260px;
+    height: 250px;
+    font-size: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+}
+.section1{
+    display: flex;
+    margin-left: 50px;
+}
+.sect1-div{
+    margin-top: 200px;
+}
+.sect1-div h1{
+    font-size: 35px;
+}
+.sect-div p{
+    font-size: 18px;
+}
+.section2{
+    width: 1139px;
+    height: 346px;
+    background: #00194A;
+    margin-left: 75px;
+    border-radius: 25px;
+    margin-top: 100px;
+}
